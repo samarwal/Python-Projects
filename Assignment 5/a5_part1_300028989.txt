@@ -1,0 +1,31 @@
+
+#Question 1a)
+Each max function costs n operation time, and since there are four max
+functions, it would cost 4n operation time. The big O for this is O(n).
+
+
+#Question 1b)
+List "a" items are transferred to temp_list -> n
+temp_list is sorted -> nlogn
+For loop runs n//3 times -> n//3
+The big O for this is O(n + nlogn + n//3)
+Simplifies to O(nlogn)
+
+
+#Question 1c)
+List "a" items are transferred to temp_list -> n
+temp_list is sorted, costing nlogn operation time -> nlogn
+For loop runs n times -> n
+The big O for this is O(n + nlogn + n)
+Simplifies to O(nlogn)
+
+
+#Question 1d)
+The function sum_tri(a, x) first sorts the array, and then nested loops go over
+the array to find potential indices. Sorting runs in nlogn time and the nested
+loops run in n^2 time.
+The worst case performance is O(n^2)
+
+
+
+	
